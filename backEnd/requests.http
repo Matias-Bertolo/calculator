@@ -1,0 +1,15 @@
+### peticion get
+
+GET http://localhost:3000/calcular
+
+
+###peticion post a /calcular
+
+POST  http://localhost:3000/calcular
+Content-Type: application/json
+
+{
+    "num1":1,
+    "op":"+",
+    "num2":2   
+}

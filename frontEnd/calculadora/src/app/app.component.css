@@ -1,0 +1,66 @@
+table{
+    width: 500px;
+    height: 500px;
+ border-color: black;
+}
+input{
+ height: 100%;
+  width: 100%;
+  font-size: 50px;
+  border: none;
+  direction:rtl
+}
+
+
+.btn{
+    font-size: 80px;
+    /*color: white;*/
+  /*background-color: blue;*/
+  margin: 2px;
+  height: 100%;
+  width: 100%;
+  padding: 6px 20px;
+  box-shadow:2px 2px 2px 2px black;
+}
+.clean{
+    font-size: 80px;
+    background-color: red;
+    color: white;
+    height: 100%;
+  width: 100%;
+  box-shadow:2px 2px 2px 2px black;
+}
+.operations{
+    font-size: 80px;
+    background-color: rgb(58, 192, 76);
+    color: white;
+    margin: 2px;
+    height: 100%;
+  width: 100%;
+  padding: 6px 20px;
+  box-shadow:2px 2px 2px 2px black;
+}
+.result{
+    font-size: 80px;
+    background-color: black;
+    color: white;
+    height: 100%;
+  width: 100%;
+  box-shadow:2px 2px 2px 2px black;
+}
+     .btn:hover{
+        background-color: aqua;
+        color: #000;
+    }
+    .clean:hover{
+        background-color: rgb(236, 45, 39);
+        color: #000;
+    }
+    .operations:hover{
+        background-color: rgb(127, 150, 132);
+        color: #000;
+    }
+    .result:hover{
+        background-color: rgb(60, 63, 60);
+        color: rgb(226, 220, 220);
+    }
